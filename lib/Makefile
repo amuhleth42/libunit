@@ -5,7 +5,8 @@ CFLAGS	= -Wall -Werror -Wextra
 INCL	= -I . -I./libft
 
 SRCS	+=	list_utils.c			\
-			load_test.c
+			load_test.c				\
+			launch_tests.c			\
 
 OBJS	= ${SRCS:.c=.o}
 
