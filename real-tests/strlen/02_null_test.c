@@ -1,3 +1,5 @@
+#include <string.h>
+
 int	null_test(void)
 {
 	strlen(NULL);

@@ -1,3 +1,5 @@
+#include <string.h>
+
 int	basic_test(void)
 {
 	if (strlen("bonjour") == 8)
